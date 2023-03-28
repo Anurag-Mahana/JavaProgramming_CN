@@ -37,10 +37,25 @@
 package a6_Patterns1;
 import java.util.*;
 
-public class a67_Problem_SumEvenOdd {
+public class a68_Problem_SumEvenOdd {
 
-	public static void main(String[] args) {
-		
+	public static void main(String[] args)throws Exception {
+		try(Scanner sc=new Scanner(System.in)){
+			System.out.println("Enter a number:");
+			int num = sc.nextInt();
+			int digit,evenSum=0,oddSum=0;
+			while(num>0) {
+				digit=num%10;
+				if(digit%2==0){
+					evenSum+=digit;
+				}
+				else {
+					oddSum+=digit;
+				}
+				num=num/10;
+			}
+			System.out.println(evenSum+" "+oddSum);
+		}
 	}
 
 }

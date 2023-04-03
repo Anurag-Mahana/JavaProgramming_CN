@@ -83,7 +83,7 @@ public class a72_pattern2 {
 					val++;
 				}
 				System.out.println();
-				//test for pc
+				//test for other Systems(1)
 			}
 		}
 	}

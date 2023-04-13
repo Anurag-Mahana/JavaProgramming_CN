@@ -9,20 +9,21 @@ import java.util.*;
 public class a62_pattern2 {
 	public static void main(String [] args) throws Exception{
 		System.out.println("Enter the limit:");
-		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
-		System.out.println();
-		int i=1;
-		int value=1;
-		while(i<=n) {
-			int j=1;
-			while(j<=i) {
-				System.out.print(value);
-				j++;
-				value++;
-			}
+		try (Scanner sc = new Scanner(System.in)) {
+			int n=sc.nextInt();
 			System.out.println();
-			i++;
+			int i=1;
+			int value=1;
+			while(i<=n) {
+				int j=1;
+				while(j<=i) {
+					System.out.print(value);
+					j++;
+					value++;
+				}
+				System.out.println();
+				i++;
+			}
 		}
 	}
 }

@@ -1,7 +1,7 @@
 package b2_Arrays;
 import java.util.*;
 
-public class b33_LargestInArray {
+public class b23_LargestInArray {
 
 	public static int maxEle(int arr[]) {
 		int size=arr.length;

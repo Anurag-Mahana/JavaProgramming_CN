@@ -38,7 +38,7 @@
 package b2_Arrays;
 import java.util.*;
 
-public class b35_ArrangeArrayNumbers {
+public class b25_ArrangeArrayNumbers {
 
 	public static void fillArr(int arr[]) {
 		int n=arr.length;

@@ -1,7 +1,7 @@
 package b2_Arrays;
 import java.util.*;
 
-public class b36_incrementArrayValues {
+public class b26_incrementArrayValues {
 
 	public static void printArr(int input[]) {
 		for(int i=0;i<input.length;i++) {

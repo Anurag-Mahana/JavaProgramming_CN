@@ -36,7 +36,7 @@ package b2_Arrays;
 import java.util.*;
 
 
-public class b34_LinearSearch {
+public class b24_LinearSearch {
 
 	public static void indexArr(int arr[],int key) {
 		boolean flag=false;
